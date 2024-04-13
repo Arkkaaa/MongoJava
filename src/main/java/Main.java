@@ -1,9 +1,11 @@
+import View.MongoDBUI;
 import javafx.application.Application;
-import javafx.stage.Stage;
 
-import static com.mongodb.client.model.Filters.eq;
 
 public class Main {
+    public static void main(String[] args) {
+        Application.launch(MongoDBUI.class, args);
+    }
 
 }
 
